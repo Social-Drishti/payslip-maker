@@ -1,0 +1,6 @@
+{
+  "name": "Social Drishti - Payslip Studio",
+  "description": "Professional desktop payslip generator and PDF maker for Social Drishti with offline localStorage persistence, customizable earnings, deductions, and print formatting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
