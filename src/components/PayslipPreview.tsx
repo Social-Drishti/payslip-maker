@@ -150,11 +150,6 @@ export const PayslipPreview: React.FC<PayslipPreviewProps> = ({
       <div className="words">
         <b>Amount in words:</b> <span id="words">{amountToIndianWords(totals.netPayable)}</span>
       </div>
-
-      <div className="sign">
-        <div id="sigEmp">{slip.labels?.signEmployee || 'Employee Signature'}</div>
-        <div id="sigAuth">{slip.labels?.signAuthority || 'Authorised Signatory'}</div>
-      </div>
     </div>
   );
 };
